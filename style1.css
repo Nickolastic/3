@@ -1,0 +1,18 @@
+body{
+	background-image: url(картинки/repeat-image.jpg);
+	/*background-repeat: no-repeat;*/
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	background-repeat: repeat;
+	background-position: right 100px bottom 200px;
+}
+.odin{
+	background-image: url(картинки/top-bg.png),url(картинки/bottom-bg.png),url(картинки/center-bg.png);
+	background-repeat: no-repeat,no-repeat,repeat-y;
+	width: 500px;
+	padding: 100px;
+	background-size: contain;
+	background-position: top,bottom,center;
+	margin: auto;
+	text-align: justify;
+}
